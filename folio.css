@@ -1,0 +1,162 @@
+:root {
+    font-size: 16px;
+}
+
+.name{
+	width:25vw;
+	float:left;
+	height:5vh;
+	margin-top: 2vh;
+	margin-left: 1.2rem;
+	font-size:1.5rem;
+}
+ .Luckyjob{
+	color:grey;
+}
+.profile-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1vh;
+    padding: 3vh;
+
+}
+.social-media {
+    margin-top: 2vh;
+}
+.social-media .profile {
+    margin-right: 10px;
+    width: 25px;
+}
+.container{
+	display: flex;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+}
+.content .my-image {
+    border: 1px solid #35eea4;
+    border-radius: 5px;
+    width: 25vw;
+    float:right;
+}
+
+   .hobby{
+   	border: 1px solid #35eea4;
+	float:left;
+	margin-left:5%;
+	margin-top:-37%;
+	color:#73a4d0;
+	font-size:0.8rem;
+	font-family: "Istok Web", sans-serif;
+	background-color: #355841;
+	padding: 2vh;
+	width:40vw;
+	height: 15vh;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    overflow:hidden; 
+}
+  .interest {
+  	border: 1px solid #35eea4;
+	margin-left:5%; 
+	margin-top: 1.5%;
+    color:#73a4d0;
+    font-family: "Istok Web", sans-serif;
+    font-size:0.8rem;
+	background-color: #355841;
+	padding: 2vh;
+	width:40vw;
+	height: 15vh;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    overflow:hidden;
+}
+ .experience {
+ 	border: 1px solid #35eea4;
+	margin-left:5%;
+	margin-top: 1.5%;
+    color:#73a4d0;
+    font-family: "Istok Web", sans-serif;
+    font-size:0.8rem;
+	background-color: #355841;
+	padding: 2vh;
+	width:40vw;
+	height: 15vh;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    overflow:hidden;
+}
+ .project {
+ 	border: 1px solid #35eea4;
+	margin-left:5%;
+	margin-top: 1.5%;
+    color:#73a4d0;
+    font-family: "Istok Web", sans-serif;
+    font-size:0.8rem;
+	background-color: #355841;
+	padding: 2vh;
+	width:40vw;
+	height: 15vh;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c; 
+    overflow:hidden;
+}
+
+@media only screen and (max-width: 725px) {
+    .content {
+        flex-direction: column;
+    }
+    .content .my-image {
+        width: 80vw;
+        float:left;
+    }
+    .content .hobby{
+    	margin-top: 2vh;
+    	order: 1;
+    	width:80vw;
+    	margin-top: 5%;
+    	margin-left:-5%;
+    	height:45vh;
+    	font-size:1.2rem;
+    	
+    }
+     .content .interest{
+     	margin-top: 2vh;
+    	order:  3;
+    	width: 80vw;
+    	margin-left:-5%;
+    	height:45vh;
+    	font-size:1.2rem;
+
+    }
+    .content .experience{
+    	margin-top: 2vh;
+    	order:  3;
+    	width: 80vw;
+    	margin-left:-5%;
+    	height:45vh;
+    	font-size:1.2rem;	
+    }
+    .content .project{
+    	margin-top: 2vh;
+    	order:  3;
+    	width: 80vw;
+    	margin-left: -5%;
+    	height:45vh;
+    	font-size:1.2rem;	
+    }
+    .profile-link{
+	    width: 100%;
+
+	}
+	.name{
+	width:100%;
+	
+}
+
+}
+
